@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .parte1{
+        background-color:rgb(19, 70, 226);
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        padding: 10px;
+    }
+    .parte2{
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        flex-wrap:wrap;
+    }
+    .skills img{
+        width: 2em;
+    }
+    .skills span{
+        background-color: white;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+    }
+    .skills{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .habi{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: white;
+        padding:10px;
+        border-radius: 5px;
+    }
+    .skills .verde {
+        background-color: rgb(81, 211, 81);
+    }
+    .parte1 .nome{
+        color: white;
+        text-align: center;
+    }
+    .parte1 h3{
+        color: rgb(227, 102, 24);
+        text-align: center;
+    }
+    .tec{
+        color:rgb(19, 70, 226);
+    }
+    .sobre{
+        padding: 20px;
+        
+    }
+    .quem_sou h2{
+        color:white;
+    }
+    .quem_sou p{
+        color: white;
+    }
+    .quem_sou p span{
+        color: rgb(227, 102, 24);
+    }
+    .quem_sou{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .parte2 div{
+        color:rgb(19, 70, 226);
+        width: 25em;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+</style>
+<body>
+    <main>
+        <div class="parte1">
+            <div class="sobre">
+                <h2 class="nome">Yasmim Santos</h2>
+                <h3>Desenvolvedora Web</h3>
+            </div>
+            <div class="quem_sou">
+                <h2>Quem sou eu?</h2>
+                <p>Apaixonada por tecnologia, transformo ideias em soluções tecnologicas, especializada em <span>desenvolvimento web</span> , criação de <span>landing pages</span> , sites institucionais e <span>sistemas de gerenciamento</span> .</p>
+            </div>
+            <div class="habi">
+                <h2 class="tec">Tecnologias</h2>
+                <div class="skills">    
+                    <img src="html.png" alt="">
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                </div>
+                <div class="skills">
+                    <img src="css-3.png" alt="">
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class=""></span>
+                    
+                </div>
+                <div class="skills">
+                    <img src="js.png" alt="">
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class="verde"></span>
+                    <span class=""></span>
+                    <span class=""></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="parte2">
+            <div>
+                <h2>Dados Pessoais</h2>
+                <ul>
+                    <li>Yasmim Santos Lopes</li>
+                    <li>17 anos</li>
+                    <li>Email: ys119387@gmail.com</li>
+                    <li>Celular: (63) 99215-3019</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Formações</h2>
+                <ul>
+                    <li>Operador de Computador(Senai)</li>
+                    <li>Tecnico de TI(Senai)</li>
+                    <li>Desenvolvimento Web(Udemy)</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Serviços</h2>
+                <ul>
+                    <li>Landing Pages</li>
+                    <li>Sites Institucionais</li>
+                    <li>Sistemas de gerenciamento</li>
+                    <li>Cruds</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>MySqli</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contato</h2>
+                <ul>
+                    <li>(63) 99215-3019</li>
+                    <li>Email: ys119387@gmail.com</li>
+                    <li>Instagram: YasmimSantos4326</li>
+                    <li>Xambioá-To</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Objetivos</h2>
+                <ul>
+                    <li>Contribuir para o bom desempenho da empresa</li>
+                    <li>Prestar um bom serviço</li>
+                    <li>Atender as demandas</li>
+                    <li>Trabalho em equipe</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
